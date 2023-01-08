@@ -1,0 +1,37 @@
+
+.head-left {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-top: 32px ;
+    height: 680px;
+    width: 100px;
+}
+
+.site-soc__div {
+transform: rotate(-90deg) translateY(100%);
+    transform-origin: bottom left;
+    padding-left: 40px;
+    padding-top: 27px;
+}
+
+.site-soc__list {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+
+            
+   
+}
+
+.site-soc__list::before {
+    
+        display: block;
+        content: "";
+        width: 60px;
+        height: 1px;
+        background-color: #303030;
+        
+
+}
+

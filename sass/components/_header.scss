@@ -1,0 +1,23 @@
+.site-nav__list {
+    display: flex;
+
+    & li:not(:last-child) {
+            padding-right: 30px;
+        }
+    }
+
+
+.contacts__list {
+    display: flex;
+    
+
+    & li:not(:last-child) {
+        padding-right: 40px;
+    }
+}
+
+.header-content {
+    display: flex;
+    justify-content: space-between;
+
+}

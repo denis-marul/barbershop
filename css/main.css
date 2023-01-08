@@ -1,0 +1,157 @@
+body {
+  font-family: "Open Sans", sans-serif;
+  letter-spacing: 0.02em;
+  font-weight: 400;
+  font-size: 14px;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+p, h1, h2, h3, h4, h5 {
+  margin: 0;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+.conteiner {
+  padding-left: 15px;
+  padding-right: 15px;
+  width: 1200px;
+  margin: 0 auto;
+}
+
+.head-left {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding-top: 32px;
+  height: 680px;
+  width: 100px;
+}
+
+.site-soc__div {
+  transform: rotate(-90deg) translateY(100%);
+  transform-origin: bottom left;
+  padding-left: 40px;
+  padding-top: 27px;
+}
+
+.site-soc__list {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+}
+
+.site-soc__list::before {
+  display: block;
+  content: "";
+  width: 60px;
+  height: 1px;
+  background-color: #303030;
+}
+
+.head-right {
+  padding-left: 100px;
+  padding-right: 20px;
+  padding-top: 40px;
+  width: 1070px;
+  background-color: aquamarine;
+}
+
+.site-nav__list {
+  display: flex;
+}
+.site-nav__list li:not(:last-child) {
+  padding-right: 30px;
+}
+
+.contacts__list {
+  display: flex;
+}
+.contacts__list li:not(:last-child) {
+  padding-right: 40px;
+}
+
+.header-content {
+  display: flex;
+  justify-content: space-between;
+}
+
+.hero__content {
+  display: flex;
+  margin-top: 184px;
+  justify-content: space-between;
+}
+
+.hero__content-right__list {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 144px;
+}
+
+.hero {
+  padding: 0;
+}
+
+.hero__content-left {
+  width: 444px;
+}
+
+.hero-text-one {
+  display: flex;
+  align-items: center;
+  padding-bottom: 20px;
+  text-transform: uppercase;
+  font-weight: 600;
+  font-size: 11px;
+  line-height: 1.36;
+}
+
+.hero-text-one::before {
+  display: block;
+  content: "";
+  width: 60px;
+  height: 1px;
+  background-color: #303030;
+  margin-right: 20px;
+}
+
+.hero-tytle {
+  font-family: "Raleway";
+  padding-bottom: 20px;
+  font-weight: 700;
+  font-size: 72px;
+  letter-spacing: 0.05em;
+  line-height: 1.18;
+}
+
+.hero-text-two {
+  font-size: 18px;
+  line-height: 2.1;
+}
+
+section {
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
+
+.site-head {
+  display: flex;
+  height: 680px;
+}/*# sourceMappingURL=main.css.map */
